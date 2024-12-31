@@ -1,0 +1,15 @@
+[package]
+name = "kvs"
+version = "0.1.0"
+authors = ["Jimbo Wo", "wutuobangbang@gmail.com"]
+edition = "2021"
+
+[[bin]]
+name = "kvs"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive"] }
+
+[dev-dependencies]
+assert_cmd = "0.11.0"
+predicates = "1.0.0"
